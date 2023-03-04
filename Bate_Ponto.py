@@ -25,6 +25,24 @@ for mat in matriculas:
         driver.find_element (By.CLASS_NAME , 'btn-success').click()
         time.sleep (5)
         
-        driver.find_elements (By.CLASS_NAME, 'btn3d')[1].click()
-        time.sleep (2)
-        
+
+        driver.find_element (By.CLASS_NAME, 'Entrada').click ()
+        time.sleep(2)
+        driver.find_element (By.CLASS_NAME, 'Pausa').click ()
+        time.sleep(2)
+        driver.find_element (By.CLASS_NAME, 'Retorno').click ()
+        time.sleep(2)
+        driver.find_element (By.CLASS_NAME, 'Saída').click ()
+        time.sleep(2)
+
+        #driver.find_elements (By.CLASS_NAME, 'btn3d')[0].click()
+        #time.sleep (2)
+
+        #driver.find_elements (By.CLASS_NAME, 'btn3d')[1].click()
+        #time.sleep (2)
+
+        #driver.find_elements (By.CLASS_NAME, 'btn3d')[2].click()
+        #time.sleep (2)
+
+        #driver.find_elements (By.CLASS_NAME, 'btn3d')[3].click()
+        #time.sleep (2)
